@@ -17,7 +17,7 @@
 
 ---
 
-## � Demo Video
+## Demo Video
 
 <div align="center">
 
@@ -31,7 +31,7 @@
 -->
 
 <video width="800" controls>
-  <source src="UPLOAD_YOUR_VIDEO_HERE.mp4" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/42a88f29-7990-455f-98fd-2cb8963671ff" type="video/mp4">
   <p>Your browser doesn't support HTML5 video. <a href="https://github.com/user-attachments/assets/42a88f29-7990-455f-98fd-2cb8963671ff">Download the demo video</a> instead.</p>
 </video>
 
@@ -239,6 +239,7 @@ All data accessed through NASA Giovanni interface with 10+ years coverage (2015-
   <h3>🛰️ Built with NASA Data • Made for SpaceApps 2025 • Open Source 🛰️</h3>
   <p><em>Transforming space data into earthly solutions</em></p>
 </div>
+
 
 
 
