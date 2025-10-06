@@ -1,25 +1,40 @@
-# Future Sight: Weather Prediction & Historical Analysis
-
-A modern web application that provides weather risk prediction and historical analysis using real NASA satellite data.
+<div align="center">
+  <img src="frontend/public/images/logo.png" alt="Future Sight Logo" width="120" height="120">
+  <img src="frontend/public/images/nasa-logo.png" alt="NASA Logo" width="100" height="80" style="margin-left: 20px;">
+  
+  <h1>Future Sight: Weather Prediction & Historical Analysis</h1>
+  <p><em>A modern web application that provides weather risk prediction and historical analysis using real NASA satellite data.</em></p>
+  
+  [![NASA Data](https://img.shields.io/badge/NASA-Data%20Partner-blue?style=flat&logo=nasa)](https://nasa.gov)
+  [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=flat&logo=react)](https://reactjs.org/)
+  [![Node.js](https://img.shields.io/badge/Node.js-16.0+-339933?style=flat&logo=node.js)](https://nodejs.org/)
+  [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+</div>
 
 ## Overview
 
+---
+
+## 🌟 Overview
+
 Future Sight analyzes weather patterns using NASA Earth Observation data to help users understand future weather conditions and historical probability of specific weather events for any location and date.
 
-## Features
+## ✨ Features
 
-- **Location-based Analysis**: Enter city name or coordinates
-- **Date-specific Queries**: Select any day of the year
-- **Multiple Weather Variables**: Temperature, humidity, precipitation, wind speed
-- **Custom Thresholds**: Define personal risk tolerance levels
-- **Statistical Analysis**: Historical probability and trend calculations
-- **Data Visualization**: Interactive charts and distribution graphs
+- 🌍 **Location-based Analysis**: Enter city name or coordinates
+- 📅 **Date-specific Queries**: Select any day of the year
+- 🌡️ **Multiple Weather Variables**: Temperature, humidity, precipitation, wind speed
+- ⚖️ **Custom Thresholds**: Define personal risk tolerance levels
+- 📊 **Statistical Analysis**: Historical probability and trend calculations
+- 📈 **Data Visualization**: Interactive charts and distribution graphs
 
-## Technology Stack
+## 🛠️ Technology Stack
 
-- **Frontend**: React.js with Tailwind CSS
-- **Backend**: Node.js/Express API
-- **Data Sources**: NASA AIRS (temperature), NASA GLDAS (humidity, precipitation, wind)
+- **Frontend**: React.js with Tailwind CSS ⚛️
+- **Backend**: Node.js/Express API 🚀
+- **Data Sources**: NASA AIRS (temperature), NASA GLDAS (humidity, precipitation, wind) 🛰️
+- **Visualization**: Chart.js 📊
+- **Data Processing**: Custom NASA data processors 🔧
 - **Visualization**: Chart.js
 - **Data Processing**: Custom NASA data processors
 
