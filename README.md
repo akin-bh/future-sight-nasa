@@ -16,7 +16,7 @@
 </div>
 
 ---
-<video src="https://github.com/user-attachments/assets/b8523386-2a9e-4804-bff6-76fd78d2aacd" width="75%" controls></video>
+<video src="https://github.com/user-attachments/assets/b8523386-2a9e-4804-bff6-76fd78d2aacd" width="25%" controls></video>
 
 
 
@@ -221,6 +221,7 @@ All data accessed through NASA Giovanni interface with 10+ years coverage (2015-
   <h3>🛰️ Built with NASA Data • Made for SpaceApps 2025 • Open Source 🛰️</h3>
   <p><em>Transforming space data into earthly solutions</em></p>
 </div>
+
 
 
 
