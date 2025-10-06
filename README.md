@@ -17,7 +17,42 @@
 
 ---
 
-## 🌟 Overview
+## � Demo Video
+
+<div align="center">
+
+### See Future Sight in Action!
+
+<!-- To add your demo video:
+1. Edit this README on GitHub.com
+2. Drag and drop your MP4 file (max 25MB) directly into the editor
+3. GitHub will auto-generate a video link
+4. Replace "UPLOAD_YOUR_VIDEO_HERE.mp4" below with the generated link
+-->
+
+<video width="800" controls>
+  <source src="UPLOAD_YOUR_VIDEO_HERE.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. <a href="UPLOAD_YOUR_VIDEO_HERE.mp4">Download the demo video</a> instead.</p>
+</video>
+
+**📱 To upload your demo video:**
+1. Go to GitHub and edit this README
+2. Drag & drop your MP4 file directly into the editor  
+3. GitHub will generate a video link automatically
+4. Replace "UPLOAD_YOUR_VIDEO_HERE.mp4" with the generated link
+
+### 📹 Demo Content Suggestions
+- 🌍 **Location Search**: Show entering "New York" or another city
+- 📊 **Weather Analysis**: Select different weather variables  
+- 📈 **Results Display**: Show charts and probability calculations
+- 🛰️ **NASA Integration**: Highlight NASA data and branding
+- 🎯 **User Flow**: Complete end-to-end user experience
+
+</div>
+
+---
+
+## �🌟 Overview
 
 Future Sight analyzes weather patterns using NASA Earth Observation data to help users understand future weather conditions and historical probability of specific weather events for any location and date.
 
