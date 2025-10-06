@@ -1,0 +1,36 @@
+{
+  "name": "future-sight-server",
+  "version": "1.0.0",
+  "description": "Backend API for AI-Powered Weather Prediction & Historical Analysis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "weather",
+    "nasa",
+    "api",
+    "climate",
+    "risk-analysis"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
