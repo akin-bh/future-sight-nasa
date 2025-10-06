@@ -23,19 +23,94 @@ Future Sight analyzes weather patterns using NASA Earth Observation data to help
 - **Visualization**: Chart.js
 - **Data Processing**: Custom NASA data processors
 
-## Quick Start
+## 🚀 Complete Setup Guide
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+### Prerequisites
+Before starting, make sure you have installed:
+- **Node.js** (version 16 or higher) - [Download here](https://nodejs.org/)
+- **npm** (comes with Node.js)
+- **Git** - [Download here](https://git-scm.com/)
 
-2. Start development servers:
-   ```bash
-   npm run dev
-   ```
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/akin-bh/future-sight-nasa.git
+cd future-sight-nasa
+```
 
-3. Open http://localhost:3000 to view the application
+### Step 2: Install Dependencies
+Install dependencies for both backend and frontend:
+```bash
+# Install root dependencies (concurrently for running both servers)
+npm install
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+
+# Return to root directory
+cd ..
+```
+
+### Step 3: Start the Application
+
+**Option A: Start Both Servers Together (Recommended)**
+```bash
+# From the root directory, start both backend and frontend
+npm run dev
+```
+This will start:
+- **Backend server** on `http://localhost:3001` 
+- **Frontend application** on `http://localhost:3000`
+
+**Option B: Start Servers Separately**
+```bash
+# Terminal 1: Start backend server
+cd backend
+npm start
+# Backend runs on http://localhost:3001
+
+# Terminal 2: Start frontend (in new terminal)
+cd frontend
+npm start
+# Frontend runs on http://localhost:3000
+```
+
+### Step 4: Access the Application
+1. **Open your browser** and go to `http://localhost:3000`
+2. **The application should load** with the Future Sight interface
+3. **Backend API** is accessible at `http://localhost:3001`
+
+### 🔧 Troubleshooting
+
+**If you get port conflicts:**
+- Backend port 3001 is busy: Kill existing Node processes or change port in `backend/index.js`
+- Frontend port 3000 is busy: React will automatically suggest port 3001, type `y` to accept
+
+**If npm install fails:**
+```bash
+# Clear npm cache and retry
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+```
+
+**If the application doesn't load:**
+1. Check both servers are running (you should see startup messages)
+2. Check browser console for errors (F12 → Console tab)
+3. Verify both `http://localhost:3000` and `http://localhost:3001` are accessible
+
+### 📊 How to Use the Application
+
+1. **Enter a Location**: Type a city name (e.g., "New York", "London")
+2. **Select Date**: Choose month and day for analysis
+3. **Choose Weather Variable**: Temperature, Humidity, Precipitation, or Wind Speed
+4. **Set Threshold**: Define your risk tolerance level
+5. **Get Analysis**: View historical probability and statistics
+6. **Explore Visualizations**: Check charts and distribution graphs
 
 ## Project Structure
 
@@ -65,6 +140,78 @@ This application uses authentic NASA satellite data:
 - **Wind Speed**: NASA GLDAS Noah Land Surface Model (Near Surface Wind Speed)
 
 All data accessed through NASA Giovanni interface with 10+ years coverage (2015-2025).
+
+## 🧪 Testing the API
+
+You can test the backend API directly:
+
+### Check API Health
+```bash
+curl http://localhost:3001/api/health
+```
+
+### Test Weather Analysis
+```bash
+curl -X POST http://localhost:3001/api/giovanni-analysis \
+  -H "Content-Type: application/json" \
+  -d '{
+    "location": "New York",
+    "month": 7,
+    "day": 15,
+    "year": 2030,
+    "variable": "max_temp",
+    "threshold": 35
+  }'
+```
+
+## 🛠️ Development Workflow
+
+### Making Changes
+1. **Frontend Changes**: Edit files in `frontend/src/` - React will auto-reload
+2. **Backend Changes**: Edit files in `backend/` - Restart server to see changes
+3. **Styling**: Uses Tailwind CSS - check `frontend/tailwind.config.js`
+
+### Building for Production
+```bash
+# Build frontend for production
+cd frontend
+npm run build
+
+# Files will be in frontend/build/
+```
+
+### Available Scripts
+```bash
+# Root directory
+npm run dev          # Start both servers
+npm run backend      # Start only backend
+npm run frontend     # Start only frontend
+npm run build        # Build frontend for production
+
+# Backend directory
+npm start           # Start backend server
+npm run dev         # Start with nodemon (auto-restart)
+
+# Frontend directory
+npm start           # Start development server
+npm run build       # Build for production
+npm test            # Run tests
+```
+
+## 📝 Project Architecture
+
+### Backend Structure
+- **`index.js`**: Main server file with Express setup
+- **`routes/`**: API endpoint handlers
+- **`services/`**: NASA data integration services
+- **`utils/`**: Statistical calculation utilities
+- **`*Processor.js`**: NASA data processing modules
+
+### Frontend Structure
+- **`components/`**: React UI components
+- **`hooks/`**: Custom React hooks (useHistoricalData)
+- **`utils/`**: Helper functions and utilities
+- **`index.js`**: Main React application entry point
 
 ## NASA Data Access
 
