@@ -17,30 +17,7 @@
 
 ---
 
-## Demo Video
 
-<div align="center">
-
-### See Future Sight in Action!
-
-<!-- To add your demo video:
-1. Edit this README on GitHub.com
-2. Drag and drop your MP4 file (max 25MB) directly into the editor
-3. GitHub will auto-generate a video link
-4. Replace "UPLOAD_YOUR_VIDEO_HERE.mp4" below with the generated link
--->
-
-<video width="800" controls>
-  <source src="https://github.com/user-attachments/assets/42a88f29-7990-455f-98fd-2cb8963671ff" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. <a href="https://github.com/user-attachments/assets/42a88f29-7990-455f-98fd-2cb8963671ff">Download the demo video</a> instead.</p>
-</video>
-
-
-
-
-</div>
-
----
 
 ##  Overview
 
@@ -239,6 +216,7 @@ All data accessed through NASA Giovanni interface with 10+ years coverage (2015-
   <h3>🛰️ Built with NASA Data • Made for SpaceApps 2025 • Open Source 🛰️</h3>
   <p><em>Transforming space data into earthly solutions</em></p>
 </div>
+
 
 
 
