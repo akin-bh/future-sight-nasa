@@ -1,6 +1,6 @@
 <div align="center">
   <img src="frontend/public/images/logo.png" alt="Future Sight Logo" width="120" height="120">
-  <img src="frontend/public/images/nasa-logo.png" alt="NASA Logo" width="100" height="80" style="margin-left: 20px;">
+  <img src="frontend/public/images/nasa-logo.png" alt="NASA Logo" width="100" height="100" style="margin-left: 20px;">
   
   <h1>Future Sight: Weather Prediction & Historical Analysis</h1>
   <p><em>A modern web application that provides weather risk prediction and historical analysis using real NASA satellite data.</em></p>
@@ -226,6 +226,7 @@ All data accessed through NASA Giovanni interface with 10+ years coverage (2015-
   <h3>🛰️ Built with NASA Data • Made for SpaceApps 2025 • Open Source 🛰️</h3>
   <p><em>Transforming space data into earthly solutions</em></p>
 </div>
+
 
 
 
