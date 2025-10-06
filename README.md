@@ -141,44 +141,9 @@ This application uses authentic NASA satellite data:
 
 All data accessed through NASA Giovanni interface with 10+ years coverage (2015-2025).
 
-## 🧪 Testing the API
 
-You can test the backend API directly:
 
-### Check API Health
-```bash
-curl http://localhost:3001/api/health
-```
 
-### Test Weather Analysis
-```bash
-curl -X POST http://localhost:3001/api/giovanni-analysis \
-  -H "Content-Type: application/json" \
-  -d '{
-    "location": "New York",
-    "month": 7,
-    "day": 15,
-    "year": 2030,
-    "variable": "max_temp",
-    "threshold": 35
-  }'
-```
-
-## 🛠️ Development Workflow
-
-### Making Changes
-1. **Frontend Changes**: Edit files in `frontend/src/` - React will auto-reload
-2. **Backend Changes**: Edit files in `backend/` - Restart server to see changes
-3. **Styling**: Uses Tailwind CSS - check `frontend/tailwind.config.js`
-
-### Building for Production
-```bash
-# Build frontend for production
-cd frontend
-npm run build
-
-# Files will be in frontend/build/
-```
 
 ### Available Scripts
 ```bash
@@ -219,3 +184,4 @@ npm test            # Run tests
 - [Giovanni Interface](https://giovanni.gsfc.nasa.gov/) - Data analysis tool
 - [AIRS Mission](https://airs.jpl.nasa.gov/) - Temperature data source
 - [GLDAS Project](https://ldas.gsfc.nasa.gov/gldas/) - Land surface data
+
