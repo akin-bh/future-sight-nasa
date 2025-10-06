@@ -32,27 +32,17 @@
 
 <video width="800" controls>
   <source src="UPLOAD_YOUR_VIDEO_HERE.mp4" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. <a href="UPLOAD_YOUR_VIDEO_HERE.mp4">Download the demo video</a> instead.</p>
+  <p>Your browser doesn't support HTML5 video. <a href="https://github.com/user-attachments/assets/42a88f29-7990-455f-98fd-2cb8963671ff">Download the demo video</a> instead.</p>
 </video>
 
-**📱 To upload your demo video:**
-1. Go to GitHub and edit this README
-2. Drag & drop your MP4 file directly into the editor  
-3. GitHub will generate a video link automatically
-4. Replace "UPLOAD_YOUR_VIDEO_HERE.mp4" with the generated link
 
-### 📹 Demo Content Suggestions
-- 🌍 **Location Search**: Show entering "New York" or another city
-- 📊 **Weather Analysis**: Select different weather variables  
-- 📈 **Results Display**: Show charts and probability calculations
-- 🛰️ **NASA Integration**: Highlight NASA data and branding
-- 🎯 **User Flow**: Complete end-to-end user experience
+
 
 </div>
 
 ---
 
-## �🌟 Overview
+##  Overview
 
 Future Sight analyzes weather patterns using NASA Earth Observation data to help users understand future weather conditions and historical probability of specific weather events for any location and date.
 
@@ -60,22 +50,22 @@ Future Sight analyzes weather patterns using NASA Earth Observation data to help
 
 This project was developed as part of the **NASA SpaceApps Challenge 2025**, addressing the challenge of making NASA Earth observation data more accessible and actionable for everyday decision-making. Our solution transforms complex satellite data into intuitive weather risk predictions that help users plan activities and understand climate patterns.
 
-## ✨ Features
+##  Features
 
-- 🌍 **Location-based Analysis**: Enter city name or coordinates
-- 📅 **Date-specific Queries**: Select any day of the year
-- 🌡️ **Multiple Weather Variables**: Temperature, humidity, precipitation, wind speed
-- ⚖️ **Custom Thresholds**: Define personal risk tolerance levels
-- 📊 **Statistical Analysis**: Historical probability and trend calculations
-- 📈 **Data Visualization**: Interactive charts and distribution graphs
+-  **Location-based Analysis**: Enter city name or coordinates
+-  **Date-specific Queries**: Select any day of the year
+-  **Multiple Weather Variables**: Temperature, humidity, precipitation, wind speed
+-  **Custom Thresholds**: Define personal risk tolerance levels
+-  **Statistical Analysis**: Historical probability and trend calculations
+-  **Data Visualization**: Interactive charts and distribution graphs
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React.js with Tailwind CSS ⚛️
-- **Backend**: Node.js/Express API 🚀
-- **Data Sources**: NASA AIRS (temperature), NASA GLDAS (humidity, precipitation, wind) 🛰️
-- **Visualization**: Chart.js 📊
-- **Data Processing**: Custom NASA data processors 🔧
+- **Frontend**: React.js with Tailwind CSS 
+- **Backend**: Node.js/Express API 
+- **Data Sources**: NASA AIRS (temperature), NASA GLDAS (humidity, precipitation, wind) 
+- **Visualization**: Chart.js 
+- **Data Processing**: Custom NASA data processors 
 - **Visualization**: Chart.js
 - **Data Processing**: Custom NASA data processors
 
@@ -242,44 +232,6 @@ All data accessed through NASA Giovanni interface with 10+ years coverage (2015-
 
 ---
 
-## 🚀 NASA SpaceApps Challenge 2025
-
-### Challenge Theme: **"Earth Science & Climate Change"**
-
-Future Sight was developed for the **NASA SpaceApps Challenge 2025**, one of the world's largest global hackathons focused on space exploration and Earth science. This project addresses the challenge of making NASA's vast Earth observation datasets accessible and actionable for everyday users.
-
-### 🎯 Problem Statement
-How can we transform complex NASA satellite data into user-friendly tools that help people make informed decisions about weather-sensitive activities?
-
-### 💡 Our Solution
-Future Sight bridges the gap between advanced NASA Earth observation data and practical decision-making by:
-
-- **Democratizing NASA Data**: Making AIRS and GLDAS datasets accessible to non-scientists
-- **Predictive Analytics**: Using historical patterns to predict future weather risks
-- **User-Centric Design**: Intuitive interface for location-based weather analysis
-- **Real-World Applications**: Helping users plan outdoor activities, travel, and events
-
-### 🏆 Innovation Highlights
-
-1. **NASA Data Integration**: Direct integration with official NASA AIRS and GLDAS datasets
-2. **Statistical Modeling**: Advanced probability calculations based on 10+ years of satellite data
-3. **Interactive Visualizations**: Chart.js powered graphs for data interpretation
-4. **Responsive Design**: Works seamlessly across desktop and mobile devices
-5. **Open Source**: Fully documented codebase for community contribution
-
-### 🌍 Impact & Applications
-
-- **Event Planning**: Help organizers assess weather risks for outdoor events
-- **Agriculture**: Assist farmers in planning planting and harvesting schedules
-- **Travel**: Enable travelers to make informed decisions about destinations
-- **Research**: Provide accessible historical climate data for educational purposes
-- **Emergency Preparedness**: Support communities in understanding weather patterns
-
-### 🔗 SpaceApps Resources
-
-- [NASA SpaceApps Challenge 2025](https://www.spaceappschallenge.org/)
-- [NASA Earth Science Data](https://earthdata.nasa.gov/)
-- [Project Repository](https://github.com/akin-bh/future-sight-nasa)
 
 ---
 
@@ -287,6 +239,7 @@ Future Sight bridges the gap between advanced NASA Earth observation data and pr
   <h3>🛰️ Built with NASA Data • Made for SpaceApps 2025 • Open Source 🛰️</h3>
   <p><em>Transforming space data into earthly solutions</em></p>
 </div>
+
 
 
 
