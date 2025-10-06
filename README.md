@@ -178,10 +178,22 @@ npm test            # Run tests
 - **`utils/`**: Helper functions and utilities
 - **`index.js`**: Main React application entry point
 
+## Data Sources
+
+This application uses authentic NASA satellite data:
+
+- **Temperature**: NASA AIRS/Aqua L3 Monthly Standard Physical Retrieval
+- **Humidity**: NASA GLDAS Noah Land Surface Model (Specific Humidity)
+- **Precipitation**: NASA GLDAS Noah Land Surface Model (Precipitation Rate)  
+- **Wind Speed**: NASA GLDAS Noah Land Surface Model (Near Surface Wind Speed)
+
+All data accessed through NASA Giovanni interface with 10+ years coverage (2015-2025).
+
 ## NASA Data Access
 
 - [NASA Earthdata](https://earthdata.nasa.gov/) - Main data portal
 - [Giovanni Interface](https://giovanni.gsfc.nasa.gov/) - Data analysis tool
 - [AIRS Mission](https://airs.jpl.nasa.gov/) - Temperature data source
 - [GLDAS Project](https://ldas.gsfc.nasa.gov/gldas/) - Land surface data
+
 
