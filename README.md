@@ -16,13 +16,6 @@
 </div>
 
 ---
-<video src="https://github.com/user-attachments/assets/b8523386-2a9e-4804-bff6-76fd78d2aacd" width="25%" controls></video>
-
-
-
-
-
-
 
 ##  Overview
 
@@ -31,6 +24,18 @@ Future Sight analyzes weather patterns using NASA Earth Observation data to help
 ### 🏆 NASA SpaceApps Challenge 2025
 
 This project was developed as part of the **NASA SpaceApps Challenge 2025**, addressing the challenge of making NASA Earth observation data more accessible and actionable for everyday decision-making. Our solution transforms complex satellite data into intuitive weather risk predictions that help users plan activities and understand climate patterns.
+
+
+##  Demo
+<video src="https://github.com/user-attachments/assets/b8523386-2a9e-4804-bff6-76fd78d2aacd" width="25%" controls></video>
+
+
+
+
+
+
+
+
 
 ##  Features
 
@@ -221,6 +226,7 @@ All data accessed through NASA Giovanni interface with 10+ years coverage (2015-
   <h3>🛰️ Built with NASA Data • Made for SpaceApps 2025 • Open Source 🛰️</h3>
   <p><em>Transforming space data into earthly solutions</em></p>
 </div>
+
 
 
 
